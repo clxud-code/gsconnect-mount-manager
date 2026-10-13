@@ -1,0 +1,1 @@
+# gsconnect-mount-manager
