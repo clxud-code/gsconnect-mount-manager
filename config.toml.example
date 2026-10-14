@@ -1,0 +1,12 @@
+# All settings are optional. No credentials belong in this file.
+base_dir = "~/Android" # use an absolute path in practice; default is ~/Android
+automount = true
+check_interval = "5m"
+connect_timeout = "20s"
+max_retries = 5
+log_level = "info"
+
+# A device ID is shown by `gsconnect-mount-manager devices`.
+#[device."device-id"]
+#automount = true
+#root = "/Primary" # only when this exact export is present

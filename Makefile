@@ -1,0 +1,13 @@
+.PHONY: build test race vet install uninstall
+build:
+	go build ./...
+test:
+	go test ./...
+race:
+	go test -race ./...
+vet:
+	go vet ./...
+install:
+	./install.sh
+uninstall:
+	./uninstall.sh
